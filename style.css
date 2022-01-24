@@ -207,16 +207,16 @@ a.nav-link{
 .work{
 	display: flex; 
 	flex: 1;
-    flex-wrap: wrap;
-    justify-content:center;
+  flex-wrap: wrap;
+  justify-content:center;
 	align-items: center;
 	padding: 20px;
 }
 
 .card{
-	display: flex;
-	flex-direction: column;
-	margin: 20px;
+	display: inline-block;
+  flex-direction: column;
+  margin: 20px;
 	width: 200px;
 	height:250px;
 	border-radius:12px;
@@ -232,7 +232,7 @@ a.nav-link{
 .card .work-content{
 	text-align: center;
 	padding: 10px 5px;
-	font-size: 30px;
+	font-size: 20px;
 	color: var(--main-fonts-color);
 	font-family: var(--main-font-family);
 	cursor: pointer;
