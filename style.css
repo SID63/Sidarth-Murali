@@ -205,7 +205,7 @@ a.nav-link{
 }
 
 .work{
-	display: flex; 
+	display: inline-block; 
 	flex: 1;
   flex-wrap: wrap;
   justify-content:center;
